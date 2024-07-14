@@ -48,7 +48,7 @@ const HowItWorks: React.FC = () => {
             animate={controls}
           >
             <motion.h2 variants={itemVariants} className="mb-4 text-3xl font-bold text-blue-900">
-              &apos;How It Works&apos;
+              How It Works
             </motion.h2>
             <motion.p variants={itemVariants} className="mb-6 text-blue-700">
               Whether you&apos;re a small startup or an established player in the industry, our
@@ -91,10 +91,8 @@ const HowItWorks: React.FC = () => {
                     <span className="text-2xl">{item.icon}</span>
                   </div>
                   <div>
-                    <h3 className="text-xl font-semibold text-blue-900">
-                      &lsquo;{item.title}&lsquo;
-                    </h3>
-                    <p className="text-blue-700">&lsquo;{item.description}&lsquo;</p>
+                    <h3 className="text-xl font-semibold text-blue-900">{item.title}</h3>
+                    <p className="text-blue-700">{item.description}</p>
                   </div>
                 </motion.div>
               ))}

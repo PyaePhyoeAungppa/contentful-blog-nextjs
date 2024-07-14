@@ -9,7 +9,7 @@ const LandingPage = () => {
   return (
     <div className="font-inter min-h-screen bg-blue-50">
       <NavBar />
-      <div className="container mx-auto px-4 pt-32">
+      <div className="container mx-auto px-4">
         <div
           className="relative flex flex-col items-center overflow-hidden md:flex-row"
           style={{ height: '80vh' }}
@@ -28,7 +28,7 @@ const LandingPage = () => {
             >
               <span className="font-semibold text-blue-600">Double</span> your writers productivity
               with our advanced <span className="font-semibold text-blue-600">Research</span> and
-              <span className="font-semibold text-blue-600">Generation</span> platform
+              <span className="font-semibold text-blue-600"> Generation</span> platform
             </motion.h1>
 
             <motion.p
