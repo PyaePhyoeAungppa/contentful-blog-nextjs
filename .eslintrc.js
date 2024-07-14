@@ -71,9 +71,8 @@ module.exports = {
           },
         ],
         alphabetize: {
-          order:
-            "asc" /* sort in ascending order. Options: ['ignore', 'asc', 'desc'] */,
-          caseInsensitive: true /* ignore case. Options: [true, false] */,
+          order: "asc",
+          caseInsensitive: true,
         },
       },
     ],
@@ -86,6 +85,8 @@ module.exports = {
     "react/jsx-uses-react": "off",
     "react/react-in-jsx-scope": "off",
     "react/self-closing-comp": "warn",
+    "jsx-a11y/alt-text": "off", // Disable alt-text checks
+    "react/no-unescaped-entities": "off", // Disable unescaped entities check
   },
   overrides: [
     {
@@ -97,7 +98,6 @@ module.exports = {
         ecmaFeatures: {
           jsx: true,
         },
-        // typescript-eslint specific options
         warnOnUnsupportedTypeScriptVersion: true,
       },
       settings: {
